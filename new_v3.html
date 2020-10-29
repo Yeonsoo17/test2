@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/new_v3.css">
+    <style>
+        body{
+            background-color: #f7f6f7;
+            margin: 35px;
+            padding: 30px;
+        }
+        .logo-bar{
+            height: 70px;
+            position: static;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        #logo{
+            height: 70px;
+            cursor: pointer;
+        }
+        .container{
+            border: 2px solid black;
+            margin-top: 10px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .polaroid{
+            border: 2px solid red;
+            margin: 10px;
+            padding: 10px 20px 10px 20px;
+            max-width: 280px;
+            background-color: #fff;
+            box-shadow: 20px 20px 10px #4d4d4e;
+           
+            
+        }
+    
+        .img img{
+            width: 100%;
+            height: auto;
+            border: 2px solid black;
+        }
+        .title{
+    font-size: 24px;
+    text-decoration: none; color: black;
+}
+.caption{
+    font-size: 16px;
+    text-decoration: none; color: black;
+}
+        #p1{
+        
+        }
+        #p2{
+          
+        }
+        #p3{
+            
+        }
+        #p4{
+            
+        }
+    </style>
+</head>
+<body>
+   <div class="logo-bar">
+       <img src="../img/logo.png" alt="logo"  id="logo">
+   </div>
+    <div class="container">
+        <div class="polaroid" id="p1">
+          <div class="title">Title</div><!--카테고리-->
+              <div class="img"><!--이미지-->
+               <img src="../img/1.jpeg" alt="sample1">
+               </div>
+               <div class="caption">caption</div><!--설명-->
+        </div>
+               <!--폴라로이드2-->
+                <div class="polaroid" id="p2">
+          <div class="title">Title</div><!--카테고리-->
+              <div class="img"><!--이미지-->
+               <img src="../img/2.jpeg" alt="sample1">
+               </div>
+               <div class="caption">caption</div><!--설명-->
+        </div>
+               <!--폴라로이드3-->
+                <div class="polaroid" id="p3">
+          <div class="title">Title</div><!--카테고리-->
+              <div class="img"><!--이미지-->
+               <img src="../img/3.jpeg" alt="sample1">
+               </div>
+               <div class="caption">caption</div><!--설명-->
+        </div>
+        <!--폴라로이드4-->
+        <div class="polaroid" id="p4">
+          <div class="title">Title</div><!--카테고리-->
+              <div class="img"><!--이미지-->
+               <img src="../img/4.jpeg" alt="sample1">
+               </div>
+               <div class="caption">caption</div><!--설명-->
+        </div>
+    </div>
+</body>
+</html>
